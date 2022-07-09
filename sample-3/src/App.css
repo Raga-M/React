@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-image {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+h1{background-color: black;
+  color: red;
+}
+.card-text{
+  font-size: medium;
+  color:blueviolet;
+  font-weight: 500;
+}
+.card{
+  background-color: black;
+}
+img{
+  left:48%;
+  width: 80px;
+  height: 90px;
+position: relative;
+border: 2px solid red;}
+h5{
+  color: red;
+  
+}
+.price
+{ font-size: larger;
+  font-weight: bold;
+  color: blue;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
